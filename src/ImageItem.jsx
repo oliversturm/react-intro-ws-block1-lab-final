@@ -5,7 +5,7 @@ const ImageItem = ({ imageInfo }) => (
     <img className={styles.img} src={imageInfo.media.m} alt={imageInfo.title} />
     <p className={styles.p}>
       On {imageInfo.published}, {imageInfo.author} posted this image with the
-      subject "{imageInfo.title}"
+      subject &quot;{imageInfo.title}&quot;.
     </p>
   </div>
 );
